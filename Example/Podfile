@@ -1,0 +1,6 @@
+use_frameworks!
+target 'VEVideoSDK_Tests' do
+  pod 'VEVideoSDK', :path => '../'
+  
+  
+end
