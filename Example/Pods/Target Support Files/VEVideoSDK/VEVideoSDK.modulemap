@@ -1,0 +1,6 @@
+framework module VEVideoSDK {
+  umbrella header "VEVideoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

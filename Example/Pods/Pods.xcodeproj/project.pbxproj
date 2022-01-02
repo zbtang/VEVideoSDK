@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5E15046AB1FA10ACBABCB552FA9044 /* SXVideoCompositor.h in Headers */ = {isa = PBXBuildFile; fileRef = E99BD0A58604E0AF2F0117040B70871F /* SXVideoCompositor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC08CE5E559CECF3335FEEC5FF900BB /* SXTemplateRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA53FB358083A359B435C78341491DF /* SXTemplateRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FDB32AA3F576348B8E112EA29995D59 /* SXTrackGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 471AC580447A3EB3C5A91A468496BF4D /* SXTrackGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1252AE1F02C05E7D9FBF94B368E20D04 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 78BA6344525C5A09A06C96EEB9906845 /* Info.plist */; };
+		14B2BACA01B4ADAF0C228623F4FF26C8 /* VEVideoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F7C2BA2296FA221D3C2C6628D4D0F7 /* VEVideoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A92B877601A452BC685C32E0F32C2B1 /* SXCameraTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F16BA760D09ED205E1722BB9F5C987C /* SXCameraTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4A352066B1C78FA5EAE6CD38978975 /* SXReverseVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F023709E5818AED6E24CB29FA7436D /* SXReverseVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E16C8EC2D84DC46C0E22358EEBD9CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6092A3382E0F40178ECE29DF25254AF /* OpenGLES.framework */; };
+		34273DB4A39D033C8A8268AEBE7D41A5 /* SXResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 53551A1DBD4F46E40B2DD098B4A5212E /* SXResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A0AA9307DAE5A97FE4018E53C3C77F /* SXStickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E09DE68FB0FB5DC403BBD093F485D5 /* SXStickerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4C11F368ABF00B8C4BF5AD8F99049D /* SXEditExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1435790C223796E32D5CC4B37047A4A1 /* SXEditExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDEC12C37EC9C6915AF168C6F3A221E /* SXShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD9CF85BCDEC8D3F338AAAFD87A7DDA /* SXShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419DC26EFC346310F44A446AC8A0D06A /* SXEditManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A0C6B558AC58B68E16ED58329B4380 /* SXEditManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D27F84192803426C49A32717BFAAF46 /* SXAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4545142D1FC7AF39E4534D24F856CE /* SXAudioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4764EE6F50BCDD16A570559E5F6C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947342096519612CDF1F2C8947FD45DF /* Foundation.framework */; };
+		4E822F1D050B71CA377470EC512E4375 /* Pods-VEVideoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39889E732B6D09E048A287E99D612BF4 /* Pods-VEVideoSDK_Tests-dummy.m */; };
+		57B30E94D54811E8F78ED1DA5676829A /* SXPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F16543D8F2425BAFF981E9374BFB26F2 /* SXPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58FEAEF40FAD6569699AF8DCB1D57E91 /* SXCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E3E9AFC8F15E6316C64CA4839A489B /* SXCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC2815F6AC3E9354A540D94D62DF60B /* SXEditPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = B58C760551AFC11774483129A20384B8 /* SXEditPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A8B696FD4857476AB6199D0D1D87499 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A469D81F3E35A9F332910E1C4533EF46 /* CoreGraphics.framework */; };
+		719133C7703111F838039556E0C67A91 /* SXTemplatePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6CD72E274B974F9A82DBC1398CA3FD /* SXTemplatePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D9B26D825C1B7AEC9FEBA6D693076F /* VEVideoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCEE5E247EBD70A475E6745566FF7EB /* VEVideoSDK-dummy.m */; };
+		8EC611C6868FB2F23E14F32BCB6A124F /* SXTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F689A746CD6229991EA86D2C2EDA51B7 /* SXTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F79D287C991C9EA9D5C9810FD575E13 /* SXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AB91763411FFB12F1B1D2F2F764C42 /* SXCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A06239BE973503E0E6241E76AC7D37C0 /* SXLicense.h in Headers */ = {isa = PBXBuildFile; fileRef = 337386A05C9003B5D0428D69F0085084 /* SXLicense.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A137567DA2D22429297691ED37678D08 /* SXVideoSDK in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D1F26E3808D08949751C1512F2F90 /* SXVideoSDK */; };
+		A71E24400531479709C67201F55B831C /* SXFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B4FBAD983BC1AA3E4B95F6B3363BD3 /* SXFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A845934658968ABC4E8C4FB1633CB079 /* Pods-VEVideoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5967EF599A1F1287083B53739A12B6 /* Pods-VEVideoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30108C43B10DEA2689C69F74B367A89 /* SXVideoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9BD4BA219AA6EB3FED0F563087F9ED /* SXVideoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7344EA400194EB3C56C7281E1BDDD3D /* SXEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C789ABC045BD06C6CFBCFC8DC9B0097 /* SXEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA7174212C9A4A55B70650538F6AD0E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BAB1B1C471B750AEC0FF2D26094D6 /* AVFoundation.framework */; };
+		C54AF7D28AE19E56713752F8CF46A08C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4E80D95539755299AD1F100F269112 /* CoreMedia.framework */; };
+		C5C16AEB3311A31628B970AF7B528E61 /* SXTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = D21DEC66D16F61CEC0100FBD77CC0375 /* SXTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71012F9EB05D74E4DE8819556F9CC6A /* SXConfigUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D89FFE122346BC310C695A55E680A8 /* SXConfigUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94B8E049B3B93694ED9120B47EA45D4 /* SXAudioThumbnail.h in Headers */ = {isa = PBXBuildFile; fileRef = B26A09C1DE32C2A615B02B9A6379AE18 /* SXAudioThumbnail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3204FCFA4DFB3ADCFD839D20E9BFBD5 /* SXEditOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5E62FE731C105823DDA9C4A3D70C18 /* SXEditOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF7B1788F3308E609F8F0BAF9FD3997 /* SXComposite.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFD8015CBD0D1A334AC5AB5845C7BC8 /* SXComposite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E569B23DD1CDFE974EA04A539F8F31 /* SXCustomSourceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 643FA8FD7B6DB34690A982F5561DF03B /* SXCustomSourceProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F283AC89800F0FAA180A2293A7401EC3 /* SXGenericEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F736075A3963AD6EC37672F9FFB42A /* SXGenericEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B9C5F246AECF225AB44B47EBE127E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947342096519612CDF1F2C8947FD45DF /* Foundation.framework */; };
+		F9662061F80DC396FDF00FA64D4A2D99 /* SXTextCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 273338B9B120DF58C706B48F8E88610F /* SXTextCanvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCADFB110D2640BF8F6A9BC23791A48 /* SXEffectDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDB5DB6E8BC33A6DC4F718D90DCD16A /* SXEffectDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47856DB7FF0B90788688246BB9398690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FEE5ECCCB3FC2D3B517F15F2BCD576;
+			remoteInfo = VEVideoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9D1F26E3808D08949751C1512F2F90 /* SXVideoSDK */ = {isa = PBXFileReference; includeInIndex = 1; name = SXVideoSDK; path = VEVideoSDK/Classes/SXVideoSDK.framework/SXVideoSDK; sourceTree = "<group>"; };
+		0B5E62FE731C105823DDA9C4A3D70C18 /* SXEditOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEditOptions.h; sourceTree = "<group>"; };
+		1435790C223796E32D5CC4B37047A4A1 /* SXEditExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEditExtension.h; sourceTree = "<group>"; };
+		15122C8530EE0A493B87934A0A6E5371 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19F7C2BA2296FA221D3C2C6628D4D0F7 /* VEVideoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEVideoSDK-umbrella.h"; sourceTree = "<group>"; };
+		1EA53FB358083A359B435C78341491DF /* SXTemplateRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTemplateRender.h; sourceTree = "<group>"; };
+		1FD9CF85BCDEC8D3F338AAAFD87A7DDA /* SXShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXShape.h; sourceTree = "<group>"; };
+		2008FBC8FFF6DC1CC16F6ABF48D2DA93 /* VEVideoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VEVideoSDK.modulemap; sourceTree = "<group>"; };
+		22A0C6B558AC58B68E16ED58329B4380 /* SXEditManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEditManager.h; sourceTree = "<group>"; };
+		2368DE4E1F3F766DC8947206BECF028E /* VEVideoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEVideoSDK.release.xcconfig; sourceTree = "<group>"; };
+		24AB91763411FFB12F1B1D2F2F764C42 /* SXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXCamera.h; sourceTree = "<group>"; };
+		24E09DE68FB0FB5DC403BBD093F485D5 /* SXStickerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXStickerManager.h; sourceTree = "<group>"; };
+		273338B9B120DF58C706B48F8E88610F /* SXTextCanvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTextCanvas.h; sourceTree = "<group>"; };
+		2B6CD72E274B974F9A82DBC1398CA3FD /* SXTemplatePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTemplatePlayer.h; sourceTree = "<group>"; };
+		2B9BD4BA219AA6EB3FED0F563087F9ED /* SXVideoSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXVideoSDK.h; sourceTree = "<group>"; };
+		2F16BA760D09ED205E1722BB9F5C987C /* SXCameraTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXCameraTemplate.h; sourceTree = "<group>"; };
+		337386A05C9003B5D0428D69F0085084 /* SXLicense.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXLicense.h; sourceTree = "<group>"; };
+		33B4FBAD983BC1AA3E4B95F6B3363BD3 /* SXFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXFilter.h; sourceTree = "<group>"; };
+		39889E732B6D09E048A287E99D612BF4 /* Pods-VEVideoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VEVideoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		3D5967EF599A1F1287083B53739A12B6 /* Pods-VEVideoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VEVideoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		40F023709E5818AED6E24CB29FA7436D /* SXReverseVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXReverseVideo.h; sourceTree = "<group>"; };
+		44496C7AA83638EEE7DCDA10A85E5F36 /* Pods-VEVideoSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VEVideoSDK_Tests"; path = Pods_VEVideoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		471AC580447A3EB3C5A91A468496BF4D /* SXTrackGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTrackGroup.h; sourceTree = "<group>"; };
+		4BEF713793D4BBDFE30409B3F7612398 /* Pods-VEVideoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VEVideoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53551A1DBD4F46E40B2DD098B4A5212E /* SXResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXResource.h; sourceTree = "<group>"; };
+		55F1793479AADE5857D1A4A08A53AC73 /* Pods-VEVideoSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEVideoSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		5C789ABC045BD06C6CFBCFC8DC9B0097 /* SXEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEffect.h; sourceTree = "<group>"; };
+		5CF6C3E438FBDB7194C7AEF33A03DF91 /* VEVideoSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VEVideoSDK-Info.plist"; sourceTree = "<group>"; };
+		5DCEE5E247EBD70A475E6745566FF7EB /* VEVideoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VEVideoSDK-dummy.m"; sourceTree = "<group>"; };
+		643FA8FD7B6DB34690A982F5561DF03B /* SXCustomSourceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXCustomSourceProvider.h; sourceTree = "<group>"; };
+		6BD43FC684A83FE5C577D68DE9429EF3 /* Pods-VEVideoSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VEVideoSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		718BAB1B1C471B750AEC0FF2D26094D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		78BA6344525C5A09A06C96EEB9906845 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = VEVideoSDK/Classes/SXVideoSDK.framework/Info.plist; sourceTree = "<group>"; };
+		7EF0FF33348C9A248EE1B5904FE8280F /* Pods-VEVideoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEVideoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC7C93ABA9E287D804E2D0966773B30 /* Pods-VEVideoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEVideoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		947342096519612CDF1F2C8947FD45DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95E3E9AFC8F15E6316C64CA4839A489B /* SXCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXCommon.h; sourceTree = "<group>"; };
+		9C4545142D1FC7AF39E4534D24F856CE /* SXAudioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXAudioItem.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3B3A4C9036E31AAF94721B1D21A4AE7 /* Pods-VEVideoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEVideoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A469D81F3E35A9F332910E1C4533EF46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A6D89FFE122346BC310C695A55E680A8 /* SXConfigUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXConfigUtils.h; sourceTree = "<group>"; };
+		AD25938DB3191966875D21E797DA7B05 /* VEVideoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VEVideoSDK-prefix.pch"; sourceTree = "<group>"; };
+		B26A09C1DE32C2A615B02B9A6379AE18 /* SXAudioThumbnail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXAudioThumbnail.h; sourceTree = "<group>"; };
+		B58C760551AFC11774483129A20384B8 /* SXEditPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEditPublic.h; sourceTree = "<group>"; };
+		BA6E09B8D0765D666BFA8C84E0421E8C /* VEVideoSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VEVideoSDK; path = VEVideoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8D9BE75F996DA540784FE5E545327B /* VEVideoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VEVideoSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D21DEC66D16F61CEC0100FBD77CC0375 /* SXTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTrack.h; sourceTree = "<group>"; };
+		D8022BF416434B525B6459E22CD4F09E /* Pods-VEVideoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VEVideoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		DDDB5DB6E8BC33A6DC4F718D90DCD16A /* SXEffectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXEffectDelegate.h; sourceTree = "<group>"; };
+		E032CA6E2A51088A1B95C877466920CD /* VEVideoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEVideoSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E6F736075A3963AD6EC37672F9FFB42A /* SXGenericEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXGenericEffect.h; sourceTree = "<group>"; };
+		E99BD0A58604E0AF2F0117040B70871F /* SXVideoCompositor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXVideoCompositor.h; sourceTree = "<group>"; };
+		EE4E80D95539755299AD1F100F269112 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		F16543D8F2425BAFF981E9374BFB26F2 /* SXPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXPlayerView.h; sourceTree = "<group>"; };
+		F6092A3382E0F40178ECE29DF25254AF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		F689A746CD6229991EA86D2C2EDA51B7 /* SXTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXTemplate.h; sourceTree = "<group>"; };
+		F7F3BC34EFA5D7E86EEE7EBA911C687B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FEFD8015CBD0D1A334AC5AB5845C7BC8 /* SXComposite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SXComposite.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A779B6CBE0F03DA0B95B05B52F88D57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7174212C9A4A55B70650538F6AD0E6 /* AVFoundation.framework in Frameworks */,
+				6A8B696FD4857476AB6199D0D1D87499 /* CoreGraphics.framework in Frameworks */,
+				C54AF7D28AE19E56713752F8CF46A08C /* CoreMedia.framework in Frameworks */,
+				4E4764EE6F50BCDD16A570559E5F6C71 /* Foundation.framework in Frameworks */,
+				20E16C8EC2D84DC46C0E22358EEBD9CB /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4829DF5DE0AB92D19B49FC72DBC4FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9C5F246AECF225AB44B47EBE127E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CF65B0542E5778DD0EE89CEED9510F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44496C7AA83638EEE7DCDA10A85E5F36 /* Pods-VEVideoSDK_Tests */,
+				BA6E09B8D0765D666BFA8C84E0421E8C /* VEVideoSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213F33CA9E46CB17771C314D1223AF6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7F3BC34EFA5D7E86EEE7EBA911C687B /* LICENSE */,
+				15122C8530EE0A493B87934A0A6E5371 /* README.md */,
+				CD8D9BE75F996DA540784FE5E545327B /* VEVideoSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2223BD5389A0EBB9CD00DF85B38288D8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9C4545142D1FC7AF39E4534D24F856CE /* SXAudioItem.h */,
+				B26A09C1DE32C2A615B02B9A6379AE18 /* SXAudioThumbnail.h */,
+				24AB91763411FFB12F1B1D2F2F764C42 /* SXCamera.h */,
+				2F16BA760D09ED205E1722BB9F5C987C /* SXCameraTemplate.h */,
+				95E3E9AFC8F15E6316C64CA4839A489B /* SXCommon.h */,
+				FEFD8015CBD0D1A334AC5AB5845C7BC8 /* SXComposite.h */,
+				A6D89FFE122346BC310C695A55E680A8 /* SXConfigUtils.h */,
+				643FA8FD7B6DB34690A982F5561DF03B /* SXCustomSourceProvider.h */,
+				1435790C223796E32D5CC4B37047A4A1 /* SXEditExtension.h */,
+				22A0C6B558AC58B68E16ED58329B4380 /* SXEditManager.h */,
+				0B5E62FE731C105823DDA9C4A3D70C18 /* SXEditOptions.h */,
+				B58C760551AFC11774483129A20384B8 /* SXEditPublic.h */,
+				5C789ABC045BD06C6CFBCFC8DC9B0097 /* SXEffect.h */,
+				DDDB5DB6E8BC33A6DC4F718D90DCD16A /* SXEffectDelegate.h */,
+				33B4FBAD983BC1AA3E4B95F6B3363BD3 /* SXFilter.h */,
+				E6F736075A3963AD6EC37672F9FFB42A /* SXGenericEffect.h */,
+				337386A05C9003B5D0428D69F0085084 /* SXLicense.h */,
+				F16543D8F2425BAFF981E9374BFB26F2 /* SXPlayerView.h */,
+				53551A1DBD4F46E40B2DD098B4A5212E /* SXResource.h */,
+				40F023709E5818AED6E24CB29FA7436D /* SXReverseVideo.h */,
+				1FD9CF85BCDEC8D3F338AAAFD87A7DDA /* SXShape.h */,
+				24E09DE68FB0FB5DC403BBD093F485D5 /* SXStickerManager.h */,
+				F689A746CD6229991EA86D2C2EDA51B7 /* SXTemplate.h */,
+				2B6CD72E274B974F9A82DBC1398CA3FD /* SXTemplatePlayer.h */,
+				1EA53FB358083A359B435C78341491DF /* SXTemplateRender.h */,
+				273338B9B120DF58C706B48F8E88610F /* SXTextCanvas.h */,
+				D21DEC66D16F61CEC0100FBD77CC0375 /* SXTrack.h */,
+				471AC580447A3EB3C5A91A468496BF4D /* SXTrackGroup.h */,
+				E99BD0A58604E0AF2F0117040B70871F /* SXVideoCompositor.h */,
+				2B9BD4BA219AA6EB3FED0F563087F9ED /* SXVideoSDK.h */,
+			);
+			name = Headers;
+			path = VEVideoSDK/Classes/SXVideoSDK.framework/Headers;
+			sourceTree = "<group>";
+		};
+		351A31B315C062E38C35E1BC885980E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1330E2C779B6D11B78A7DC710BF3BCA /* VEVideoSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47044EAF72D72AEE20EFF24FAB77B7BA /* Pods-VEVideoSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8022BF416434B525B6459E22CD4F09E /* Pods-VEVideoSDK_Tests.modulemap */,
+				4BEF713793D4BBDFE30409B3F7612398 /* Pods-VEVideoSDK_Tests-acknowledgements.markdown */,
+				8EC7C93ABA9E287D804E2D0966773B30 /* Pods-VEVideoSDK_Tests-acknowledgements.plist */,
+				39889E732B6D09E048A287E99D612BF4 /* Pods-VEVideoSDK_Tests-dummy.m */,
+				6BD43FC684A83FE5C577D68DE9429EF3 /* Pods-VEVideoSDK_Tests-frameworks.sh */,
+				55F1793479AADE5857D1A4A08A53AC73 /* Pods-VEVideoSDK_Tests-Info.plist */,
+				3D5967EF599A1F1287083B53739A12B6 /* Pods-VEVideoSDK_Tests-umbrella.h */,
+				A3B3A4C9036E31AAF94721B1D21A4AE7 /* Pods-VEVideoSDK_Tests.debug.xcconfig */,
+				7EF0FF33348C9A248EE1B5904FE8280F /* Pods-VEVideoSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-VEVideoSDK_Tests";
+			path = "Target Support Files/Pods-VEVideoSDK_Tests";
+			sourceTree = "<group>";
+		};
+		6BEED0091AA577EE2976B471444A31CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47044EAF72D72AEE20EFF24FAB77B7BA /* Pods-VEVideoSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC1558AC532011EE1F6D32D78E62D2A8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				718BAB1B1C471B750AEC0FF2D26094D6 /* AVFoundation.framework */,
+				A469D81F3E35A9F332910E1C4533EF46 /* CoreGraphics.framework */,
+				EE4E80D95539755299AD1F100F269112 /* CoreMedia.framework */,
+				947342096519612CDF1F2C8947FD45DF /* Foundation.framework */,
+				F6092A3382E0F40178ECE29DF25254AF /* OpenGLES.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ACB0DBC6A7F4853252795DF1D81745F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2008FBC8FFF6DC1CC16F6ABF48D2DA93 /* VEVideoSDK.modulemap */,
+				5DCEE5E247EBD70A475E6745566FF7EB /* VEVideoSDK-dummy.m */,
+				5CF6C3E438FBDB7194C7AEF33A03DF91 /* VEVideoSDK-Info.plist */,
+				AD25938DB3191966875D21E797DA7B05 /* VEVideoSDK-prefix.pch */,
+				19F7C2BA2296FA221D3C2C6628D4D0F7 /* VEVideoSDK-umbrella.h */,
+				E032CA6E2A51088A1B95C877466920CD /* VEVideoSDK.debug.xcconfig */,
+				2368DE4E1F3F766DC8947206BECF028E /* VEVideoSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VEVideoSDK";
+			sourceTree = "<group>";
+		};
+		B1330E2C779B6D11B78A7DC710BF3BCA /* VEVideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				78BA6344525C5A09A06C96EEB9906845 /* Info.plist */,
+				0A9D1F26E3808D08949751C1512F2F90 /* SXVideoSDK */,
+				2223BD5389A0EBB9CD00DF85B38288D8 /* Headers */,
+				213F33CA9E46CB17771C314D1223AF6E /* Pod */,
+				ACB0DBC6A7F4853252795DF1D81745F9 /* Support Files */,
+			);
+			name = VEVideoSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1558AC532011EE1F6D32D78E62D2A8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				351A31B315C062E38C35E1BC885980E1 /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				12CF65B0542E5778DD0EE89CEED9510F /* Products */,
+				6BEED0091AA577EE2976B471444A31CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BDA4BC16DCD1448F4DE766234ED7F25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D27F84192803426C49A32717BFAAF46 /* SXAudioItem.h in Headers */,
+				C94B8E049B3B93694ED9120B47EA45D4 /* SXAudioThumbnail.h in Headers */,
+				9F79D287C991C9EA9D5C9810FD575E13 /* SXCamera.h in Headers */,
+				1A92B877601A452BC685C32E0F32C2B1 /* SXCameraTemplate.h in Headers */,
+				58FEAEF40FAD6569699AF8DCB1D57E91 /* SXCommon.h in Headers */,
+				DEF7B1788F3308E609F8F0BAF9FD3997 /* SXComposite.h in Headers */,
+				C71012F9EB05D74E4DE8819556F9CC6A /* SXConfigUtils.h in Headers */,
+				F0E569B23DD1CDFE974EA04A539F8F31 /* SXCustomSourceProvider.h in Headers */,
+				3E4C11F368ABF00B8C4BF5AD8F99049D /* SXEditExtension.h in Headers */,
+				419DC26EFC346310F44A446AC8A0D06A /* SXEditManager.h in Headers */,
+				D3204FCFA4DFB3ADCFD839D20E9BFBD5 /* SXEditOptions.h in Headers */,
+				5AC2815F6AC3E9354A540D94D62DF60B /* SXEditPublic.h in Headers */,
+				B7344EA400194EB3C56C7281E1BDDD3D /* SXEffect.h in Headers */,
+				FCCADFB110D2640BF8F6A9BC23791A48 /* SXEffectDelegate.h in Headers */,
+				A71E24400531479709C67201F55B831C /* SXFilter.h in Headers */,
+				F283AC89800F0FAA180A2293A7401EC3 /* SXGenericEffect.h in Headers */,
+				A06239BE973503E0E6241E76AC7D37C0 /* SXLicense.h in Headers */,
+				57B30E94D54811E8F78ED1DA5676829A /* SXPlayerView.h in Headers */,
+				34273DB4A39D033C8A8268AEBE7D41A5 /* SXResource.h in Headers */,
+				1E4A352066B1C78FA5EAE6CD38978975 /* SXReverseVideo.h in Headers */,
+				3EDEC12C37EC9C6915AF168C6F3A221E /* SXShape.h in Headers */,
+				39A0AA9307DAE5A97FE4018E53C3C77F /* SXStickerManager.h in Headers */,
+				8EC611C6868FB2F23E14F32BCB6A124F /* SXTemplate.h in Headers */,
+				719133C7703111F838039556E0C67A91 /* SXTemplatePlayer.h in Headers */,
+				0FC08CE5E559CECF3335FEEC5FF900BB /* SXTemplateRender.h in Headers */,
+				F9662061F80DC396FDF00FA64D4A2D99 /* SXTextCanvas.h in Headers */,
+				C5C16AEB3311A31628B970AF7B528E61 /* SXTrack.h in Headers */,
+				0FDB32AA3F576348B8E112EA29995D59 /* SXTrackGroup.h in Headers */,
+				0A5E15046AB1FA10ACBABCB552FA9044 /* SXVideoCompositor.h in Headers */,
+				B30108C43B10DEA2689C69F74B367A89 /* SXVideoSDK.h in Headers */,
+				14B2BACA01B4ADAF0C228623F4FF26C8 /* VEVideoSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E488215C2370D979705F75B273AFC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A845934658968ABC4E8C4FB1633CB079 /* Pods-VEVideoSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4FEE5ECCCB3FC2D3B517F15F2BCD576 /* VEVideoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C98D66322CBC770A7685A5BE3F8EC8B /* Build configuration list for PBXNativeTarget "VEVideoSDK" */;
+			buildPhases = (
+				3BDA4BC16DCD1448F4DE766234ED7F25 /* Headers */,
+				AA85E8BF93D018A9FA8D0AB361D9AD22 /* Sources */,
+				A779B6CBE0F03DA0B95B05B52F88D57C /* Frameworks */,
+				AD0015E3846D96595D8F09110BC70EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VEVideoSDK;
+			productName = VEVideoSDK;
+			productReference = BA6E09B8D0765D666BFA8C84E0421E8C /* VEVideoSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		D21467A05ABA113B5CA19EEFEE6BD86A /* Pods-VEVideoSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F565B1C0FA8C3580AA761F0FA5FDE52 /* Build configuration list for PBXNativeTarget "Pods-VEVideoSDK_Tests" */;
+			buildPhases = (
+				60E488215C2370D979705F75B273AFC8 /* Headers */,
+				7CF8CE35010AC902D1030080DE6227C4 /* Sources */,
+				E4829DF5DE0AB92D19B49FC72DBC4FE7 /* Frameworks */,
+				CF395DCB56A10853ED29A1A75B913243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AD52E8F712C00C164F7DCE8A602D5C /* PBXTargetDependency */,
+			);
+			name = "Pods-VEVideoSDK_Tests";
+			productName = Pods_VEVideoSDK_Tests;
+			productReference = 44496C7AA83638EEE7DCDA10A85E5F36 /* Pods-VEVideoSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 12CF65B0542E5778DD0EE89CEED9510F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21467A05ABA113B5CA19EEFEE6BD86A /* Pods-VEVideoSDK_Tests */,
+				A4FEE5ECCCB3FC2D3B517F15F2BCD576 /* VEVideoSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0015E3846D96595D8F09110BC70EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF395DCB56A10853ED29A1A75B913243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF8CE35010AC902D1030080DE6227C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E822F1D050B71CA377470EC512E4375 /* Pods-VEVideoSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA85E8BF93D018A9FA8D0AB361D9AD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1252AE1F02C05E7D9FBF94B368E20D04 /* Info.plist in Sources */,
+				A137567DA2D22429297691ED37678D08 /* SXVideoSDK in Sources */,
+				84D9B26D825C1B7AEC9FEBA6D693076F /* VEVideoSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28AD52E8F712C00C164F7DCE8A602D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VEVideoSDK;
+			target = A4FEE5ECCCB3FC2D3B517F15F2BCD576 /* VEVideoSDK */;
+			targetProxy = 47856DB7FF0B90788688246BB9398690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BE1848FFBAA0F14D6873A3CF9AF901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF0FF33348C9A248EE1B5904FE8280F /* Pods-VEVideoSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEVideoSDK_Tests/Pods-VEVideoSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEVideoSDK_Tests/Pods-VEVideoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24EED266A9085FE3C91703BC56CAF7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2368DE4E1F3F766DC8947206BECF028E /* VEVideoSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VEVideoSDK/VEVideoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VEVideoSDK/VEVideoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VEVideoSDK/VEVideoSDK.modulemap";
+				PRODUCT_MODULE_NAME = VEVideoSDK;
+				PRODUCT_NAME = VEVideoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		58BB2B752DF7C79C07A4F96351D3425A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B3A4C9036E31AAF94721B1D21A4AE7 /* Pods-VEVideoSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEVideoSDK_Tests/Pods-VEVideoSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEVideoSDK_Tests/Pods-VEVideoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DE0571022E3A4C6C45610DDC2DD675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E032CA6E2A51088A1B95C877466920CD /* VEVideoSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VEVideoSDK/VEVideoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VEVideoSDK/VEVideoSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VEVideoSDK/VEVideoSDK.modulemap";
+				PRODUCT_MODULE_NAME = VEVideoSDK;
+				PRODUCT_NAME = VEVideoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F565B1C0FA8C3580AA761F0FA5FDE52 /* Build configuration list for PBXNativeTarget "Pods-VEVideoSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BB2B752DF7C79C07A4F96351D3425A /* Debug */,
+				1BE1848FFBAA0F14D6873A3CF9AF901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C98D66322CBC770A7685A5BE3F8EC8B /* Build configuration list for PBXNativeTarget "VEVideoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE0571022E3A4C6C45610DDC2DD675F /* Debug */,
+				24EED266A9085FE3C91703BC56CAF7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

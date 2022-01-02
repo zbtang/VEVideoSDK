@@ -1,0 +1,29 @@
+{
+  "name": "VEVideoSDK",
+  "version": "0.1.0",
+  "summary": "A short description of VEVideoSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tangzhibin/VEVideoSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tangzhibin": "zubintang@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tangzhibin/VEVideoSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VEVideoSDK/Classes/**/*",
+  "frameworks": [
+    "CoreMedia",
+    "CoreGraphics",
+    "AVFoundation",
+    "OpenGLES"
+  ],
+  "libraries": "c++"
+}

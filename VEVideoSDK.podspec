@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tangzhibin/VEVideoSDK'
+  s.homepage         = 'https://github.com/zbtang/VEVideoSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tangzhibin' => 'zubintang@qq.com' }
-  s.source           = { :git => 'https://github.com/tangzhibin/VEVideoSDK.git', :tag => s.version.to_s }
+  s.author           = { 'zubintang' => 'zubintang@qq.com' }
+  s.source           = { :git => 'https://github.com/zbtang/VEVideoSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'CoreMedia', 'CoreGraphics', 'AVFoundation', 'OpenGLES'
+  s.library = 'c++'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
